@@ -1,7 +1,8 @@
 
-import React from 'react'
+import './nav.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import {Link} from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -9,15 +10,23 @@ const Nav = () => {
       <div class="navContainer">
         
         <div class="top">
-          <p>Les films de la bande</p>
+          <p className="logo">LES FILMS DE LA BANDE</p>
           <div class="icons">
-            <InstagramIcon />
+            <InstagramIcon  className="insta"/>
            <FacebookRoundedIcon />
-            <p>News letter</p>
+            <p className="news">News letter</p>
           </div>
        
         </div>
-        <div class="bottom"></div>
+        <div class="bottom">
+          <ul>
+            <li>LaBande</li>
+            <li>Nos bandes démo</li>
+            <li>Notre expertise</li>
+            <li>Les articles</li>
+            <li>Test</li>
+          </ul>
+        </div>
       </div>
    
     </div>

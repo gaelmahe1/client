@@ -1,0 +1,66 @@
+.navContainer {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0; 
+    appearance: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo {
+    font: normal normal 600 24px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+   margin-left: 594px;
+   margin-bottom: 18px;
+}
+
+.icons {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta {
+margin-right: 10px;
+}
+
+.news {
+    margin-right: 23px;
+    color: #FFFFFF;
+    font:15px Helvetica Neue;
+    border-radius: 23px;
+    padding: 10px 33px;
+    border: solid 1px ;
+    margin-left: 30.5px;
+    background: url("https://images.pexels.com/photos/9965702/pexels-photo-9965702.jpeg?auto=compress&cs=tinysrgb&w=800");
+    
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+  ul {
+    display: flex;
+    list-style: none;
+  align-items: center;
+  justify-content: center;
+  }
+
+  li {
+    display: flex;
+    margin: 0px 25px;
+  }
